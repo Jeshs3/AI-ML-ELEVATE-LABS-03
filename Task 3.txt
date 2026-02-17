@@ -1,0 +1,19 @@
+Task 3
+
+1. Linear regression assumes that the relationship between the input variables and the target is linear. It also assumes
+ that errors are independent, normally distributed, and have constant variance.
+2. A coefficient shows how much the target variable changes when one feature increases by one unit, 
+while keeping other features constant. If the coefficient is positive, the target increases; if negative, the target decreases.
+3. R² score tells us how much of the variation in the target variable is explained by the model. 
+A higher R² means the model fits the data better, but it does not always mean the model is perfect.
+4. I prefer MSE when you want to penalize large errors more heavily. Since MSE squares the errors, 
+big mistakes have a much larger impact on the final value.
+5. Multicollinearity can be detected using a correlation matrix or by 
+calculating the Variance Inflation Factor (VIF). If two variables are highly correlated or
+ VIF is high, it means multicollinearity may exist.
+6. Simple regression uses only one independent variable to predict the target. 
+Multiple regression uses two or more independent variables to make predictions.
+7. Linear regression is mainly used for predicting continuous values, not categories. 
+For classification problems, logistic regression is more appropriate.
+8. If the assumptions are violated, the model may give biased or unreliable results. 
+The predictions might still work, but the interpretation and accuracy of the model can be affected.
